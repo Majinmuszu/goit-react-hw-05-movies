@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #EFF9F0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.navBar {
+    height: 70px;
+    background-color: #DDC8C4;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: #6B4D57 2px solid;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.home, .movies{
+    color: #EFF9F0;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 5px 20px 10px;
+    background-color: #896A67;
+}
+.home:hover, .movies:hover {
+    box-shadow: black 5px 5px 10px;
+}
+.home {
+    margin-right: 30px;
+}
+.active {
+    background-color: #6B4D57;
+    border-color: #13070C;
+}
